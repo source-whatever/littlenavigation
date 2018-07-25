@@ -159,7 +159,6 @@ body img
 #littlenavigation
 {
     margin: 30px 0;
-    padding: 0 10%;
 
     border-top: 1px solid #f5f5f5;
 }
@@ -171,7 +170,10 @@ body img
     display:   -o-flex;
     display:      flex;
     display: -ms-flexbox;
+
+    width: 80%;
     /*IE10*/
+    margin: 0 auto;
 }
 
 #littlenavigation ul li
